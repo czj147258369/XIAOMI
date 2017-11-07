@@ -469,7 +469,6 @@
 .video-bottem{
 	width: 100%;
 	height: 285px;
-	background-color: white;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -562,7 +561,7 @@
 .banner-btn:hover{
 	background-color: black;
 }
-.lbtn{
+.banner .lbtn{
 	left: 234px;
 }
 .rbtn{
@@ -616,3 +615,114 @@
 .nav-btn.iconfont{
 	font-size: 24px;
 }
+.map{
+	width: 100%;
+	height: 272px;
+	background-color: white;
+	margin-top: 50px;
+}
+.map-top{
+	width: 1226px;
+	height: 80px;
+	margin: 0 auto;
+	border-bottom: 1px solid #e0e0e0;
+}
+.map-bottom{
+	width: 1226px;
+	height: 112px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+.map-item{
+	width: 243px;
+	height: 25px;
+	float: left;
+	margin: 0 auto;
+	margin-top: 27px;
+	border-right: 1px solid #e0e0e0;
+}
+.map-item11{
+	border-right: 0px solid #e0e0e0;
+}
+.map-item1{
+	display: block;
+	width: 140px;
+	height: 25px;
+	margin: 0 auto;
+}
+.map-item .iconfont{
+	float: left;
+	font-size: 26px;
+}
+.map-top-wenzi{
+	float: right;
+	line-height: 25px;
+	font-size: 16px;
+	color: #333;
+}
+.map-bottom-item{
+	width: 160px;
+	height: 112px;
+	float: left;
+}
+.map-bottom-item .map-bottom-item-wenzi{
+	font-size: 14px;
+	color: #424242;
+}
+.map-bottom-item-wenzi1{
+	width: 100%;
+	height: 17.6px;
+	margin-top: 13px;
+	font-size: 12px;
+}
+.map-bottom-item-wenzi2{
+	color: #333;
+}
+.map-bottom-item123{
+	float: right;
+	width: 252px;
+	height: 112px;
+	border-left: 1px solid #e0e0e0;
+}
+.map-bottom-item123-1{
+	width: 100%;
+	height: 21.6px;
+}
+.map-bottom-item123-1{
+	text-align: center;
+	font-size: 22px;
+	color: #ff6700;
+	margin-bottom: 10px;
+}
+.map-bottom-item123-2{
+	width: 251px;
+	height: 35.2px;
+	text-align: center;
+	font-size: 12px;
+	color: #333;
+}
+.map-bottom-item123-3{
+	display: block;
+	width: 120px;
+	height: 30px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 16px;
+	border: 1px solid #ff6700;
+}
+.map-bottom-item123-3 span{
+	line-height: 30px;
+	text-align: center;
+	font-size: 12px;
+	color: #ff6700;
+}
+.map-bottom-item123-3:hover{
+	background-color: #ff6700;
+}
+.map-bottom-item123-3:hover span{
+	color: white;
+}
+.map-bottom-item-wenzi2:hover{
+	color: #ff6700;
+}
+
